@@ -1,0 +1,64 @@
+body {
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formulaire {
+    background: #ffffff;
+    padding: 15px;
+    width: 280px;
+}
+
+.section {
+    border: 1px solid orange;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+legend {
+    color: orange;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 3px;
+    border: 1px solid orange;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff3f2;
+}
+
+textarea {
+    height: 70px;
+    resize: vertical;
+}
+
+.boutons {
+    text-align: center;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background: #fff3f2;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 6px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
