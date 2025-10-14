@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  padding: 5px;
+  font-weight: bold;
+
+}
+
+.header {
+  background-color: #d9f07d; 
+  width: inherit;
+  height: 50px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 15px 0;
+}
+
+.col {
+  background-color: #b3b13d; 
+  height: 120px;
+  padding: 5px;
+}
+
+.col:nth-child(2),
+.col:nth-child(4) {
+  background-color: #d2c108; 
+}
+
+.footer {
+  background-color: #4f6f1f;
+  color: black;
+  width: inherit;
+  height: 20px;
+  font-size: 5px;
+}
