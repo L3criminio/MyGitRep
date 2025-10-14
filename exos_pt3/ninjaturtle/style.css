@@ -1,0 +1,133 @@
+.turtle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 150px;
+}
+.shell {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 60px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgb(142, 186, 39);
+    border: 3.5px solid rgb(47, 150, 78);
+}
+.shell .belly {
+    margin-top: 10px;
+    width: 32px;
+    height: 40px;
+    border-radius: 0 0 50% 50%;
+    background: rgb(221, 227, 134);
+}
+
+.shell .head {
+    position: absolute;
+    top: 10px;
+    width: 33px;
+    height:33px;
+    border-radius: 50%;
+    background: rgb(142, 186, 39);
+}
+.head::before {
+    content: "";
+    position: absolute;
+    top: 14px;
+    right: -4.5px;
+    width: 42px;
+    height: 28px;
+    border-radius: 50%;
+    background: rgba(142, 186, 39, 0.877);
+}
+.head::after{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 0.2px;
+    width: 33px;
+    height: 8px;
+    background: rgb(138, 84, 118);
+}
+
+.arms::before {
+    content: "";
+    position: absolute;
+    top: 73px;
+    right: 40px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(142, 186, 39, 0.877);
+}
+.arms::after {
+    content: "";
+    position: absolute;
+    top: 73px;
+    right: -21px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(142, 186, 39, 0.877);
+}
+.arms .staff::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -2px;
+    right: -19px;
+    width: 7px;
+    height: 121px;
+    background: rgba(212, 176, 133, 0.849);
+}
+.arms .staff::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 38px;
+    right: -19px;
+    width: 7px;
+    height: 40px;
+    background: rgb(196, 195, 190);
+}
+
+.legs::before {
+    content: "";
+    position: absolute;
+    top: 90px;
+    right: -1px;
+    width: 14px;
+    height: 33px;
+    background: rgba(142, 186, 39, 0.877);
+}
+.legs::after {
+    content: "";
+    position: absolute;
+    top: 90px;
+    right: 19px;
+    width: 14px;
+    height: 33px;
+    background: rgba(142, 186, 39, 0.877);
+}
+.legs .band::before {
+    content: "";
+    position: absolute;
+    top: 112px;
+    right: -1px;
+    width: 14.2px;
+    height: 4px;
+    background: rgb(138, 84, 118);
+}
+.legs .band::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 112px;
+    right: 19px;
+    width: 14.2px;
+    height: 4px;
+    background: rgb(138, 84, 118);
+}
+
