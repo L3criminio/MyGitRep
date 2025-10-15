@@ -1,0 +1,36 @@
+.grid_container {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.case {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+
+.black {
+    background: black;
+}
+
+.jetonw {
+    background: white;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+.jetonb {
+    background: rgb(0, 0, 0);
+    border: 2px solid white;
+    box-shadow: 1px 1px 6px rgb(255, 255, 255);
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+}
