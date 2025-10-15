@@ -46,8 +46,8 @@
     content: "";
     position: absolute;
     top: 12px;
-    right: 0.2px;
-    width: 33px;
+    right: 0px;
+    width: 34px;
     height: 8px;
     background: rgb(138, 84, 118);
 }

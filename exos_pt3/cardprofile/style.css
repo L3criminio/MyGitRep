@@ -1,4 +1,5 @@
 .card {
+    margin: auto;
     display: flex;
     align-items: end;
     width: 550px;
@@ -42,13 +43,14 @@
     height: 150px;
 }
 .card .image {
+    margin: auto;
     display: flex;
     align-items: center;
     overflow: hidden;
     position: absolute;
     z-index: 3;
     top: 80px;
-    right: 250px;
+    right: 43.65%;
     width: 150px;
     height: 150px;
     border-radius: 50%;
