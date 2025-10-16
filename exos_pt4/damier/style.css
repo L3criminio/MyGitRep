@@ -28,8 +28,8 @@
 
 .jetonb {
     background: rgb(0, 0, 0);
-    border: 2px solid white;
-    box-shadow: 1px 1px 6px rgb(255, 255, 255);
+    outline: 2px groove rgb(255, 255, 255);
+    box-shadow: 2px 2px 9px rgb(255, 255, 255);
     width: 75%;
     height: 75%;
     border-radius: 50%;
