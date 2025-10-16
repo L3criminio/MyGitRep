@@ -1,36 +1,31 @@
 .grid_container {
-    width: 400px;
-    height: 400px;
-    border: 1px solid black;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
 }
-
 .case {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
 }
-
 .black {
-    background: black;
+  background: black;
 }
-
 .jetonw {
-    background: white;
-    width: 80%;
-    height: 80%;
-    border-radius: 50%;
+  background: white;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
 }
-
 .jetonb {
-    background: rgb(0, 0, 0);
-    outline: 2px groove rgb(255, 255, 255);
-    box-shadow: 2px 2px 9px rgb(255, 255, 255);
-    width: 75%;
-    height: 75%;
-    border-radius: 50%;
+  background: black;
+  outline: 2px groove white;
+  box-shadow: 2px 2px 8px white;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
 }
